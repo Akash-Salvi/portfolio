@@ -64,42 +64,52 @@ import {
     {
       name: "HTML 5",
       icon: html,
+      experience: "3 years"
     },
     {
       name: "CSS 3",
       icon: css,
+      experience: "2 years"
     },
     {
       name: "JavaScript",
       icon: javascript,
+      experience: "2 years"
     },
     {
       name: "TypeScript",
       icon: typescript,
+      experience: "2 years"
     },
     {
       name: "React JS",
       icon: reactjs,
+      experience: "2 years"
     },
     {
       name: "Redux Toolkit",
       icon: redux,
+      experience: "1 years"
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+      experience: "1 years"
     },
     {
       name: "Node JS",
       icon: nodejs,
+      experience: "1 years"
     },
     {
       name: "git",
       icon: git,
+      experience: "2 years"
     },
     {
       name: "figma",
       icon: figma,
+      experience: "1 years"
     },
   ];
   
