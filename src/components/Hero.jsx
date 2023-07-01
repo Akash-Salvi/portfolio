@@ -29,16 +29,16 @@ const Hero = () => {
           </p>
         </div>
       </div> 
-      <div className="w-full h-full flex justify-center sm:justify-end sm:items-center items-end">
-            <Tilt className="sm:mr-[10%] mr-0 max-w-lg 
-                transition-all duration-300 rounded-lg  rounded-bl-[50%] rounded-tr-[50%]  blue-gradient 
-                p-2 sm:mb-0 mb-[160px]" >
-            <img 
-                className="h-[260px] lg:h-[400px] 2xl:h-[520px] rounded-lg  rounded-bl-[50%] rounded-tr-[50%]" 
-                src={akashsalvi}
-                alt="image description"
-              />
-              </Tilt>
+      <div className="w-full h-full flex justify-center lg:justify-end lg:items-center items-end">
+          <Tilt className="sm:mr-[10%] mr-0 max-w-lg 
+              transition-all duration-300 rounded-lg  rounded-bl-[50%] rounded-tr-[50%]  blue-gradient 
+              p-2 lg:mb-0 mb-[160px]" >
+          <img 
+              className="h-[300px] lg:h-[400px] 2xl:h-[520px] rounded-lg  rounded-bl-[50%] rounded-tr-[50%]" 
+              src={akashsalvi}
+              alt="image description"
+            />
+            </Tilt>
       </div>
       <div className='absolute bottom-10 sm:bottom-20 w-full flex justify-center items-center'>
         <a href='#about'>
