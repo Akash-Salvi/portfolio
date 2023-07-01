@@ -16,11 +16,6 @@ const Tech = () => {
       </motion.div>
       <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
       {technologies.map((technology) => (
-        // <div className='p-4 bg-blue-950 rounded-full shadow-inner shadow-blue-900' key={technology.name}>
-        //     <img src={technology.icon}
-        //       className="w-20 h-20"
-        //     />
-        // </div>
         <div class="group [perspective:1000px] cursor-pointer">
           <div class="relative w-28 h-28 rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div class="absolute inset-0">

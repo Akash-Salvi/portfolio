@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 mx-auto ${styles.paddingX} sm:ml-10 ml-0 flex flex-row lg:items-center items-start lg:top-[0px] top-[120px] gap-5`}
+        className={`sm:absolute inset-0 mx-auto ${styles.paddingX} sm:ml-10 ml-0 flex flex-row lg:items-center items-start lg:top-[0px] top-[120px] pt-[70px] sm:pt-0 gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#2e73ff]' />
@@ -29,18 +29,18 @@ const Hero = () => {
           </p>
         </div>
       </div> 
-      <div className="w-full h-full flex justify-center lg:justify-end lg:items-center items-end">
-          <Tilt className="sm:mr-[10%] mr-0 max-w-lg 
+      <div className="w-full sm:h-full mt-4 sm:mt-0 flex justify-center lg:justify-end sm:items-center items-end">
+          <Tilt className="sm:mr-[10%] mr-0 max-w-lg sm:mt-80 lg:mt-0
               transition-all duration-300 rounded-lg  rounded-bl-[50%] rounded-tr-[50%]  blue-gradient 
-              p-2 lg:mb-0 mb-[160px]" >
+              p-2 sm:mb-[60px] lg:mb-0" >
           <img 
-              className="h-[300px] lg:h-[400px] 2xl:h-[520px] rounded-lg  rounded-bl-[50%] rounded-tr-[50%]" 
+              className="h-[240px] lg:h-[400px] 2xl:h-[540px] rounded-lg  rounded-bl-[50%] rounded-tr-[50%]" 
               src={akashsalvi}
               alt="image description"
             />
             </Tilt>
       </div>
-      <div className='absolute bottom-10 sm:bottom-20 w-full flex justify-center items-center'>
+      <div className='absolute bottom-16 sm:bottom-30 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div

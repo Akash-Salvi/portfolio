@@ -153,7 +153,7 @@ import {
   
   const projects = [
     {
-      name: "Querylilizerzer",
+      name: "Querylizer",
       description:
         "Create Interactive Database Diagrams. The project aims at converting the beautifully handcrafted database diagrams to SQL Queries download them. A user can insert records, update, and delete them.",
       tags: [
@@ -176,6 +176,7 @@ import {
       ],
       image: querylizer,
       source_code_link: "https://github.com/FourDivs/Querylizer",
+      link: "https://querylizer.onrender.com/",
     },
     {
       name: "SyntaxMeet",
@@ -201,6 +202,7 @@ import {
       ],
       image: syntax,
       source_code_link: "https://github.com/kothariji/SyntaxMeets",
+      link: "https://syntaxmeets.vercel.app/",
     },
     {
       name: "Neuroly",
