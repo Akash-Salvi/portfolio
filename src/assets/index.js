@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 
 import crest from "./company/crest.png";
 import super_sapiens from "./company/super_sapiens.png";
+import akashsalvi from "./akashsalvi.jpeg";
 import rushikesh from "./rushikesh.jpeg";
 
 import neuroly from "./neuroly.png";
@@ -56,5 +57,6 @@ export {
   neuroly,
   syntax,
   querylizer,
-  rushikesh
+  rushikesh,
+  akashsalvi
 };
